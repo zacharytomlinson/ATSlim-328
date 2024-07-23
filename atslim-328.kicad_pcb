@@ -2454,7 +2454,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/Feducials/3D/EVP-AEDB2A.step"
+		(model "${KIPRJMOD}/fiducials/3D/EVP-AEDB2A.step"
 			(offset
 				(xyz 0 1 0)
 			)
@@ -3951,7 +3951,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "a0800640-7900-45d9-9948-a4cd0b7ed423")
 		)
-		(model "${KIPRJMOD}/Feducials/3D/1888250-1.stp"
+		(model "${KIPRJMOD}/fiducials/3D/1888250-1.stp"
 			(offset
 				(xyz 0 -20 1.5)
 			)
@@ -8326,7 +8326,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/Feducials/3D/ATMEGA3208-MFR.stp"
+		(model "${KIPRJMOD}/fiducials/3D/ATMEGA3208-MFR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
