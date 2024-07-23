@@ -31,3 +31,7 @@ sym-lib-table
 # Exported BOM files
 *.xml
 *.csv
+
+# Manufacturer artifacts
+./database
+./nextpcb
