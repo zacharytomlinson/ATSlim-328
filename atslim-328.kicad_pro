@@ -516,7 +516,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "GerberOutput2/",
       "specctra_dsn": "atslim-328.dsn",
       "step": "",
       "svg": "",
