@@ -315,10 +315,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin open_collector line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "TX"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -353,10 +353,10 @@
 					)
 					(alternate "TMS" bidirectional line)
 				)
-				(pin open_collector line
+				(pin output line
 					(at 7.62 5.08 180)
 					(length 2.54)
-					(name "~"
+					(name "TX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2342,12 +2342,12 @@
 		(uuid "2919a3e1-1023-4bdd-9bea-2eb597138bc7")
 	)
 	(no_connect
-		(at 255.27 60.96)
-		(uuid "97b24221-4950-4ec3-b16a-935cde51665f")
+		(at 87.63 88.9)
+		(uuid "4764fece-49b3-4411-85d1-6568cfdd2c43")
 	)
 	(no_connect
-		(at 87.63 83.82)
-		(uuid "d00fffb4-46f2-4d45-9628-34274db0b0e4")
+		(at 255.27 60.96)
+		(uuid "97b24221-4950-4ec3-b16a-935cde51665f")
 	)
 	(no_connect
 		(at 149.86 133.35)
@@ -2552,6 +2552,16 @@
 			(type default)
 		)
 		(uuid "4cd55281-190b-47d1-b6bb-006e50802f4e")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9bbd87-57dd-4c04-ab9f-45538f941c18")
 	)
 	(wire
 		(pts
@@ -2902,16 +2912,6 @@
 			(type default)
 		)
 		(uuid "be320083-cba7-4bfd-a3d8-d955919aa892")
-	)
-	(wire
-		(pts
-			(xy 87.63 88.9) (xy 95.25 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc65a18-a99d-48f2-97c8-70bb29b2cd06")
 	)
 	(wire
 		(pts
@@ -3517,6 +3517,28 @@
 			)
 		)
 	)
+	(global_label "Prog_TX"
+		(shape input)
+		(at 95.25 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ce8358a-a3dd-48c7-b76f-c3de6d56b6c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.0366 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 77.47 74.93 90)
@@ -3530,28 +3552,6 @@
 		(uuid "38268463-dd29-4bb4-88b1-0942f534879d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 77.47 68.0743 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Prog_TX"
-		(shape input)
-		(at 95.25 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3bc80125-8212-47a4-ae38-c4a271d3f7f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0366 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
